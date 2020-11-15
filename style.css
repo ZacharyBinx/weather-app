@@ -34,7 +34,11 @@ body {
     margin-bottom: 20px;
   }
   #five-day {
-    height: 200px;
+    height: auto;
     border: 2px solid lightgrey;
     border-radius: 2px;
+  }
+  .card {
+    display: inline-block;
+
   }
