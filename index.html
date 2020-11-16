@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <h1>Weather App</h1>
+        <h1 class="forecast-title">Weather App</h1>
     </header>
     <div class="container main-container">
         <div class="row">
@@ -30,7 +30,7 @@
                     <div class="col-md-4" id="search-block">
                         <label for="search-input" id="label">Search for a City</label>
                         <input type="text" name="search-input" id="search-input" />
-                        <button class="btn btn-primary">search</button>
+                        <button class="btn btn-info">search</button>
                         <!-- this is where we will append our saved cities -->
                         <div id="saved-cities"></div>
                     </div>
@@ -38,11 +38,17 @@
                         <div class="container">
                             <div class="row">
                                 <!-- this is where the current city weather will appear -->
+                                <div class="forecast">
+                                <h1 class="forecast-title">Current Weather</h1>
                                 <div class="col-md-12" id="current-city"></div>
+                            </div>
                             </div>
                             <div class="row">
                                 <!-- this is where the 5 day weather forcast will go -->
-                                <div class="col-md-15" id="five-day"></div>
+                                <div class="forecast">
+                                    <h2 class="forecast-title">Forecast</h2>
+                                    <div class="col" id="five-day"></div>
+                                </div>
                             </div>
                         </div>
                     </div>

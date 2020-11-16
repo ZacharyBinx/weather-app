@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    background-color: gray;
+    font-family: Anton;
   }
   header {
-    background-color: lightblue;
+    background-color: lightseagreen;
     height: 125px;
     text-align: center;
     margin-bottom: 20px;
@@ -27,18 +31,47 @@ body {
   #search-input {
     display: inline-block;
   }
-  #current-city {
+  #current-city{
     height: 350px;
-    border: 2px solid lightgrey;
-    border-radius: 2px;
+    /* border: 2px solid lightgrey;
+    border-radius: 2px; */
     margin-bottom: 20px;
+    font-size: larger;
+
   }
+.forecast-title{
+  text-align: center;
+  width: 100;
+  background-color: lightseagreen;
+}
+.forecast {
+  width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
+}
   #five-day {
     height: auto;
-    border: 2px solid lightgrey;
-    border-radius: 2px;
   }
   .card {
     display: inline-block;
-
+    width: fit-content;
+    text-align: center;
+    background-color: lightblue;
+    margin: 3px;
+  }
+  .good {
+    background-color: rgb(113, 167, 33);
+    width: fit-content;
+  }
+  .moderate {
+    background-color: orange;
+    width: fit-content;
+  }
+  .severe {
+    background-color: red;
+    width: fit-content;
+  }
+  .btnCity {
+    background-color: rgb(209, 203, 203);
+    margin-top: 10px;
   }
